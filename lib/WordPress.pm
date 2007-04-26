@@ -29,7 +29,7 @@ our @EXPORT = qw(
 	post
 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.1.1';
 
 
 sub new() {
@@ -102,11 +102,10 @@ sub post() {
 
 1;
 __END__
-# Below is stub documentation for your module. You'd better edit it!
 
 =head1 NAME
 
-WordPress - Perl extension for blah blah blah
+WordPress - Perl extension for posting to wordpress blogs
 
 =head1 SYNOPSIS
 
@@ -139,8 +138,8 @@ Post to wordpress with the help of perl
 
 =head2 EXPORT
 
-None by default.
-
+get_categories()
+post()
 
 
 =head1 SEE ALSO
@@ -148,7 +147,7 @@ None by default.
 http://www.zoozle.net
 http://www.zoozle.org
 http://www.zoozle.biz
-http://www.sebastian-enger.com/
+http://www.p2p-blog.de
 http://www.zoozle.es
 
 =head1 AUTHOR
