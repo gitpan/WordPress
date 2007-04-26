@@ -1,0 +1,6 @@
+Revision history for Perl extension WordPress.
+
+0.01  Thu Apr 26 04:43:12 2007
+	- original version; created by h2xs 1.23 with options
+		-AXc -n WordPress
+
